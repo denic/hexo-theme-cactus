@@ -15,7 +15,7 @@ direction: ltr
 # languages/*.yml
 nav:
   home: /
-  about: /about/me
+  about: /about/me.html
   projects: https://codeberg.org/kaputse
   articles: /archives/
 # Links to your social media accounts.
@@ -42,7 +42,7 @@ tags_overview: false
 posts_overview:
   post_count: 5
   show_all_posts: false
-  sort_updated: false
+  sort_updated: true 
 
 # Customize the archive view.
 # Options:
@@ -61,8 +61,8 @@ post:
 # Customize the copyright years
 # Note: if start_year/end_year not provided, will use current year.
 copyright:
+  start_year: 2023
   end_year:
-    start_year: 2023
 
 # Customize the 404 page
 # Options:
@@ -87,9 +87,9 @@ error_404:
 #   - grayout: whether to enable a hover effect on the logo
 logo:
   width: 50
-  enabled: false 
+  enabled: true 
   height: 50
-  url: /images/logo.png
+  url: /images/ufo-logo-alpha.png
   gravatar: false
   grayout: true
 
